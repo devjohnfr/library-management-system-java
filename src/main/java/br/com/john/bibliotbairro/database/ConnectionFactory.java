@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
     private static final String URL = "jdbc:mysql://localhost/database_aqui?verifyServerCertificate=false&SSL=true\"";
-    private static final String USER = "user";
-    private static final String PASSWORD = "password";
+    private static final String USER = "your_user";
+    private static final String PASSWORD = "your_password";
 
     public static Connection getConnection() throws SQLException{
             return DriverManager.getConnection(URL,USER,PASSWORD);
