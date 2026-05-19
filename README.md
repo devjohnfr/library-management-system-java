@@ -34,11 +34,11 @@ This project was created to simulate a real-world library management application
 
 ```text
 src/
- ├── model/
  ├── dao/
+ ├── database/
+ ├── model/
  ├── service/
- ├── view/
- └── database/
+ └── Main.java
 ```
 
 ---
