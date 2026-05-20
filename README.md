@@ -56,10 +56,50 @@ This project was developed to improve skills in:
 
 ---
 
+# ⚙️ Database Setup
+
+Run the SQL script located in:
+
+```text
+database/schema.sql
+```
+
+before starting the application.
+
 # 📸 Preview
 
-> Screenshots and system previews will be added soon.
+> Screenshots and system previews.
+## Main Menu
 
+![Main Menu](assets/main-menu.png)
+
+## User Registration
+
+![User Registration](assets/user-registration.png)
+
+## Book Registration
+
+![Book Registration](assets/book-registration.png)
+
+## Books List
+
+![Book Registration](assets/list-books.png)
+
+## Users List
+
+![Book Registration](assets/list-users.png)
+
+## Book Loan
+
+![Book Registration](assets/loan-book.png)
+
+## Loan Service Of System
+
+![Book Registration](assets/loan-system.png)
+
+## Exit The System
+
+![Book Registration](assets/end-system.png)
 ---
 
 # 📈 Future Improvements
