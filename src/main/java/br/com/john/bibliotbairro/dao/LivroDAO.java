@@ -10,7 +10,7 @@ import java.util.List;
 public class LivroDAO {
 
     public void adicionarLivro(Livro livro){
-        String sql = "INSERT INTO livros (titulo, autor, ano, copias_disponiveis, total_copias) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO livros (titulo, autor, ano, copiasDisponiveis, totalCopias) VALUES (?, ?, ?, ?, ?)";
 
         try (Connection conn = ConnectionFactory.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)){
@@ -41,8 +41,8 @@ public class LivroDAO {
                         rs.getString("titulo"),
                         rs.getString("autor"),
                         rs.getInt("ano"),
-                        rs.getInt("copias_disponiveis"),
-                        rs.getInt("total_copias")
+                        rs.getInt("copiasDisponiveis"),
+                        rs.getInt("totalCopias")
                 ));
             }
         } catch (SQLException e){
@@ -52,7 +52,7 @@ public class LivroDAO {
     }
 
     public void atualizarCopias(int idLivro, int novasCopias){
-        String sql = "UPDATE livros SET copias_disponiveis = ? WHERE id = ?";
+        String sql = "UPDATE livros SET copiasDisponiveis = ? WHERE id = ?";
         try(Connection conn = ConnectionFactory.getConnection();
         PreparedStatement stmt = conn.prepareStatement(sql)){
             stmt.setInt(1, novasCopias);
