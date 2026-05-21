@@ -1,4 +1,4 @@
-package br.com.john.bibliotbairro.model;
+package br.com.cia.librarysystem.model;
 
 public class Usuario {
     private int id;

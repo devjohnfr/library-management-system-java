@@ -1,4 +1,4 @@
-package br.com.john.bibliotbairro.model;
+package br.com.cia.librarysystem.model;
 
 public class Livro {
     private int id;

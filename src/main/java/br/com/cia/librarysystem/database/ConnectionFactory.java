@@ -1,4 +1,4 @@
-package br.com.john.bibliotbairro.database;
+package br.com.cia.librarysystem.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

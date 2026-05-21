@@ -1,6 +1,6 @@
-package br.com.john.bibliotbairro;
+package br.com.cia.librarysystem;
 
-import br.com.john.bibliotbairro.service.BibliotecaService;
+import br.com.cia.librarysystem.service.BibliotecaService;
 
 import java.sql.SQLException;
 import java.util.Scanner;

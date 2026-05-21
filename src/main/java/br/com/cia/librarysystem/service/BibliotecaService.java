@@ -1,9 +1,9 @@
-package br.com.john.bibliotbairro.service;
+package br.com.cia.librarysystem.service;
 
-import br.com.john.bibliotbairro.dao.LivroDAO;
-import br.com.john.bibliotbairro.dao.UsuarioDAO;
-import br.com.john.bibliotbairro.model.Livro;
-import br.com.john.bibliotbairro.model.Usuario;
+import br.com.cia.librarysystem.dao.LivroDAO;
+import br.com.cia.librarysystem.dao.UsuarioDAO;
+import br.com.cia.librarysystem.model.Livro;
+import br.com.cia.librarysystem.model.Usuario;
 
 import java.util.List;
 

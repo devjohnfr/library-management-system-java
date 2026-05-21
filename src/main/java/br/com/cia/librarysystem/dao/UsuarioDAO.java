@@ -1,7 +1,7 @@
-package br.com.john.bibliotbairro.dao;
+package br.com.cia.librarysystem.dao;
 
-import br.com.john.bibliotbairro.database.ConnectionFactory;
-import br.com.john.bibliotbairro.model.Usuario;
+import br.com.cia.librarysystem.database.ConnectionFactory;
+import br.com.cia.librarysystem.model.Usuario;
 
 import java.sql.*;
 import java.util.ArrayList;
