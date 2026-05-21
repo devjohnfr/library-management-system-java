@@ -30,15 +30,53 @@ This project was created to simulate a real-world library management application
 
 ---
 
-# 📂 Project Structure
+## 📁 Project Structure
 
 ```text
-src/
- ├── dao/
- ├── database/
- ├── model/
- ├── service/
- └── Main.java
+library-management-system-java/
+│
+├── assets/
+│   ├── main-menu.png
+│   ├── user-registration.png
+│   ├── book-registration.png
+│   ├── books-list.png
+│   ├── user-list.png
+│   ├── book-loan.png
+│   ├── loan-service-of-system.png
+│   └── exit-the-system.png
+│
+├── database/
+│   └── schema.sql
+│
+├── libs/
+│   └── mysql-connector-j.jar
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── br/
+│               └── com/
+│                   └── cia/
+│                       └── librarysystem/
+│                           ├── dao/
+│                           ├── database/
+│                           ├── model/
+│                           ├── service/
+│                           └── Main.java
+│
+├── .gitignore
+├── README.md
+└── pom.xml
+```
+
+## ⚙️ Maven Configuration
+
+The project uses Maven for dependency management and build configuration.
+
+```xml
+<groupId>br.com.john.bibliotbairro</groupId>
+<artifactId>biblioteca_de_bairro</artifactId>
+<version>1.0-SNAPSHOT</version>
 ```
 
 ---
