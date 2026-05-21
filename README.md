@@ -68,15 +68,21 @@ library-management-system-java/
 ├── README.md
 └── pom.xml
 ```
-
 ## ⚙️ Maven Configuration
 
-The project uses Maven for dependency management and build configuration.
+This project uses Apache Maven for project structure and build configuration.
 
 ```xml
-<groupId>br.com.john.bibliotbairro</groupId>
-<artifactId>biblioteca_de_bairro</artifactId>
-<version>1.0-SNAPSHOT</version>
+<groupId>br.com.cia.librarysystem</groupId>
+<artifactId>library-management-system</artifactId>
+<version>1.0.0</version>
+```
+
+### Java Version
+
+```xml
+<maven.compiler.source>21</maven.compiler.source>
+<maven.compiler.target>21</maven.compiler.target>
 ```
 
 ---
